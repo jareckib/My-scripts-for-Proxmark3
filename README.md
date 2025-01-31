@@ -1,12 +1,4 @@
-# new-ELECTRA-and-EM4102-cloning-script LUA
+My scripts for Proxmark3
+made by Jarek Barwinski
 
-                  ELECTRA or EM410x fob cloning SCRIPT
-             v1.1.14  01/08/2023 made by Jarek Barwinski 
-
-   Cloning new ELECTRA tags or EM410x to T5577 tag. This script changes 
-   block 0 (Only for new ELECTRA tag). Additional data is written to block 3 
-   and 4. The last ELECTRA ID can be accessed through the option ---> "-c". 
-   For copy directly from the original ELECTRA tag, ---> option "-e". 
-   For copy from input, EM410X ID ---> option "-s". Next option for cloning 
-   simple EM4102 ---> option "-m". If press  <enter> it,  which writes an ID. 
-   If press <n> ---> exit the script.
+Script for cloning new ELECTRA tags or EM410x to T5577 and scripts to automate the process of cloning Paxton fobs and converting to EM4102 (Switch2 and Net2)
